@@ -7,6 +7,9 @@ const { event, Value, cond, eq, set, add, debug } = Animated;
 
 const CIRCLE_DIAMETER = 100;
 
+// followed the tutorial here
+// https://blog.swmansion.com/simple-physics-with-reanimated-part-1-9d55d36f73cd
+
 // function of interaction that i tried myself.
 // surprisingly, this works.
 function interaction(gestureTranslation, gestureState) {
