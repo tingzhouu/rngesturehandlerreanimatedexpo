@@ -5,11 +5,12 @@ import MovingCircleGoesToOriginalPosition from "./src/MovingCircleGoesToOriginal
 import OpacitySquare from './src/OpacitySquare';
 import DraggableCircle from "./src/DraggableCircle";
 import DraggableCircleWithJSCallback from './src/DraggableCircleWithJSCallback';
+import ImageResize from './src/ImageResize';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <DraggableCircleWithJSCallback />
+      <ImageResize />
     </View>
   );
 }
